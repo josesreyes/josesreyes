@@ -1,8 +1,9 @@
 name: Metrics
+
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Corre cada 12 horas
-  workflow_dispatch:          # Permite correrlo manualmente
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,11 +14,17 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}   # Usa el token automático de GitHub
+          token: ${{ secrets.METRICS_TOKEN }}
           user: josesreyes
-          template: terminal                   # Estilo consola retro
+
+          template: classic
           base: header, repositories
+
           config_timezone: America/Mexico_City
+
           plugin_languages: yes
           plugin_languages_limit: 10
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+
 
