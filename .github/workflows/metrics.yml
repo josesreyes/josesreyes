@@ -17,14 +17,18 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: josesreyes
 
-          template: classic
-          base: header, repositories
+          # 🔹 Nada de info general
+          base: ""
+
+          # 🔹 Solo lenguajes
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_colors: github
+          plugin_languages_indepth: yes
 
           config_timezone: America/Mexico_City
 
-          plugin_languages: yes
-          plugin_languages_limit: 10
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
 
 
