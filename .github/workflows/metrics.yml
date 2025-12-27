@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # Usa el token automático de GitHub
+          token: ${{ secrets.METRICS_TOKEN }}   # Usa el token automático de GitHub
           user: josesreyes
           template: terminal                   # Estilo consola retro
           base: header, repositories
