@@ -4,6 +4,9 @@ on:
     - cron: "0 */12 * * *"   # Corre cada 12 horas
   workflow_dispatch:          # Permite correrlo manualmente
 
+permissions:
+  contents: write
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
