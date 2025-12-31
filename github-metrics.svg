@@ -16,14 +16,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 270kb of code in 232 edited files across 60 commits</small>
+                <small>estimation from 272kb of code in 239 edited files across 63 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="441.3994209817914" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="441.3994209817914" y="0" width="18.6005790182086" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="441.691299158225" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="441.691299158225" y="0" width="18.30870084177504" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -35,7 +35,7 @@
                                 Java
                             </div>
                             <small>
-                                <div>95.96%</div>
+                                <div>96.02%</div>
                             </small>
                         </div>
                     </section>
@@ -48,7 +48,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>4.04%</div>
+                                <div>3.98%</div>
                             </small>
                         </div>
                     </section>
